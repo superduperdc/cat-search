@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CBM Category Quick Search</title>
+    <style>
+      #search-input {
+        font-size: 2em; /* Make the search box 2x larger */
+        width: 100%; /* Optional: Make the search box full width */
+        padding: 10px; /* Optional: Add some padding for better appearance */
+      }
+      #heading {
+        font-size: 1.5em; /* Style the heading */
+        margin-bottom: 10px; /* Add some space below the heading */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="heading">Esc to clear</div>
+    <input type="text" id="search-input" placeholder="Category..." />
+    <ul id="results-list"></ul>
+    <script src="cat-search.js"></script>
+  </body>
+</html>
