@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server",
-    "build": "tsc -p .",
+    "build": "tsc -p . && cp src/index.html dist/index.html",
     "watch": "tsc -p . --watch"
   },
   "keywords": [],
